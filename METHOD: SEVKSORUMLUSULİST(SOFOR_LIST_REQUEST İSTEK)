@@ -1,0 +1,34 @@
+SOFOR_LIST_REQUEST:KULLANICI
+ {
+ public long YETKILI_TCNO 
+ public long SICILNO 
+ }
+KULLANICI
+ {
+ public string KULLANICI_ADI 
+ public string SIFRE 
+ }
+
+SOFOR_LIST_RESPONSE:KAYIT_RESPONSE
+ {
+ public List<SF_SEVK_SORUMLUSU> sevksorumlusu 
+ }
+KAYIT_RESPONSE
+ {
+ public long SONUC_KOD 
+ public string SONUC_ACIKLAMA 
+ public string KAYIT_ID 
+ }
+SF_SEVK_SORUMLUSU
+ {
+ public long ID 
+ public long TCKIMLIKNO 
+ public long YETKILI_TCNO 
+ public long? SICILNO 
+ public long? RODAVANSNO 
+ public string ADI 
+ public string SOYADI 
+ public string TELEFON 
+ public long AKTIFPASIF 
+ public long? SERVICE 
+ }
