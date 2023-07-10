@@ -1,0 +1,27 @@
+SEVKIYAT_TIPI_REQUEST:KULLANICI
+ {
+ public long KATEGORI_ID 
+ }
+KULLANICI
+ {
+ public string KULLANICI_ADI 
+ public string SIFRE 
+ }
+
+
+SEVKIYAT_TIPI_RESPONSE:KAYIT_RESPONSE
+ {
+ public List<SF_SEVKIYAT_TIPI> SevkiyatTipi 
+ }
+KAYIT_RESPONSE
+ {
+ public long SONUC_KOD 
+ public string SONUC_ACIKLAMA 
+ public string KAYIT_ID 
+ }
+SF_SEVKIYAT_TIPI
+ {
+ public long ID 
+ public long KATEGORI_ID 
+ public string ADI 
+ }
