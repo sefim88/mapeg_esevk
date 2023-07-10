@@ -1,0 +1,17 @@
+FIRMA_SIL_REQUEST:KULLANICI
+ {
+ public long ID 
+ public long YETKILI_TCNO 
+ public long SICILNO 
+ }
+KULLANICI
+ {
+ public string KULLANICI_ADI 
+ public string SIFRE 
+ }
+KAYIT_RESPONSE
+ {
+ public long SONUC_KOD 
+ public string SONUC_ACIKLAMA 
+ public string KAYIT_ID 
+ }
