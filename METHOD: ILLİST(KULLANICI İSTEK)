@@ -1,0 +1,23 @@
+KULLANICI
+ {
+ public string KULLANICI_ADI 
+ public string SIFRE 
+ }
+IL_LIST_RESPONSE:KAYIT_RESPONSE
+ {
+ public List<IL> ILListe 
+ }
+KAYIT_RESPONSE
+ {
+ public long SONUC_KOD 
+ public string SONUC_ACIKLAMA 
+ public string KAYIT_ID 
+ }
+IL
+ {
+ public long ILNO 
+ public string ADI 
+ public int? COGRAFIBOLGENO 
+ public int? VERGIDAIBSK 
+ public int? BUYUKSEHIRDURUMU 
+ }
