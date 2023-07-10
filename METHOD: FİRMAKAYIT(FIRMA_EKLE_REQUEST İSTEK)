@@ -1,0 +1,27 @@
+FIRMA_EKLE_REQUEST:KULLANICI
+ {
+ public long? FIRMA_TIP_ID 
+ public long? SICILNO 
+ public long YETKILI_TCNO 
+ // Gerçek kişi için FIRMA_TIP_ID=1 gönderiniz
+ public long? TCKIMLIKNO 
+ // Tüzel kişi için FIRMA_TIP_ID=2 gönderiniz
+ public string VERGIKIMLIKNO 
+ // Yabancı Firma için FIRMA_TIP_ID=3 gönderiniz
+ public string YF_ADI 
+ public string YF_ADRES 
+ public string YF_ULKE 
+ public string YF_SEHIR 
+ public long? YF_TANIMLAMANO 
+ }
+KULLANICI
+ {
+ public string KULLANICI_ADI 
+ public string SIFRE 
+ }
+KAYIT_RESPONSE
+ {
+ public long SONUC_KOD 
+ public string SONUC_ACIKLAMA 
+ public string KAYIT_ID 
+ }
