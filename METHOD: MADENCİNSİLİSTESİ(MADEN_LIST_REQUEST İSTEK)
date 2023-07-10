@@ -1,0 +1,27 @@
+MADEN_LIST_REQUEST:KULLANICI
+ {
+ public long SICILNO 
+ public long YETKILI_TCNO 
+ }
+14
+KULLANICI
+ {
+ public string KULLANICI_ADI 
+ public string SIFRE 
+ }
+
+MADEN_LIST_RESPONSE:KAYIT_RESPONSE
+ {
+ public List<VM_MADEN_CINSI> maden 
+ }
+KAYIT_RESPONSE
+ {
+ public long SONUC_KOD 
+ public string SONUC_ACIKLAMA 
+ public string KAYIT_ID 
+ }
+VM_MADEN_CINSI
+ {
+ public long MADENNO 
+ public string MADEN_ADI 
+ }
