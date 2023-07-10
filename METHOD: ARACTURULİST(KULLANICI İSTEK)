@@ -1,0 +1,21 @@
+KULLANICI
+ {
+ public string KULLANICI_ADI 
+ public string SIFRE 
+ }
+ARACTURU_LIST_RESPONSE:KAYIT_RESPONSE
+ {
+ public List<SF_ARAC_TUR> arac_turu 
+ }
+KAYIT_RESPONSE
+ {
+ public long SONUC_KOD 
+ public string SONUC_ACIKLAMA 
+ public string KAYIT_ID 
+ }
+SF_ARAC_TUR
+ {
+ public long ID 
+ public int PLAKADURUM 
+ public string ADI 
+ }
