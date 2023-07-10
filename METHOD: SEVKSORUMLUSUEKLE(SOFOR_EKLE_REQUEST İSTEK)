@@ -1,0 +1,19 @@
+SOFOR_EKLE_REQUEST : KULLANICI
+ {
+ public long TCKIMLIKNO 
+ public long SICILNO 
+ public long TELEFON 
+ public long YETKILI_TCNO 
+ }
+KULLANICI
+ {
+ public string KULLANICI_ADI 
+ public string SIFRE 
+ }
+
+KAYIT_RESPONSE
+ {
+ public long SONUC_KOD 
+ public string SONUC_ACIKLAMA 
+ public string KAYIT_ID 
+ }
