@@ -1,0 +1,29 @@
+ARAC_LIST_REQUEST:KULLANICI
+ {
+ public long YETKILI_TCNO 
+ public long SICILNO 
+ }
+KULLANICI
+ {
+ public string KULLANICI_ADI 
+ public string SIFRE 
+ }
+ARAC_LIST_RESPONSE:KAYIT_RESPONSE
+ {
+ public List<SF_ARAC> arac 
+ }
+KAYIT_RESPONSE
+ {
+ public long SONUC_KOD 
+ public string SONUC_ACIKLAMA 
+ public string KAYIT_ID 
+ }
+SF_ARAC
+ {
+ public long ID 
+ public long AKTIFPASIF 
+ public long YETKILI_TCNO 
+ public string PLAKA_NO 
+ public long? SICILNO 
+ public long? RODAVANSNO 
+ }
