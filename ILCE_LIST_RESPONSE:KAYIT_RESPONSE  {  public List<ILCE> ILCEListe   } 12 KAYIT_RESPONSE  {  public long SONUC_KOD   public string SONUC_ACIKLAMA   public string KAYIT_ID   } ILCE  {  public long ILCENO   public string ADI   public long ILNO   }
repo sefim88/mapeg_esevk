@@ -1,0 +1,20 @@
+KULLANICI
+ {
+ public string KULLANICI_ADI 
+ public string SIFRE 
+ }
+KATEGORI_LIST_RESPONSE:KAYIT_RESPONSE
+ {
+ public List<SF_SEVKIYAT_KATEGORI> KategoriListe 
+ }
+KAYIT_RESPONSE
+ {
+ public long SONUC_KOD 
+ public string SONUC_ACIKLAMA 
+ public string KAYIT_ID 
+ }
+SF_SEVKIYAT_KATEGORI
+ {
+ public long ID 
+ public string ADI 
+ }
