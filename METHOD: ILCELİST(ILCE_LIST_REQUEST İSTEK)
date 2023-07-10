@@ -1,0 +1,27 @@
+ILCE_LIST_REQUEST:KULLANICI
+ {
+ public long ILNO
+ }
+KULLANICI
+ {
+ public string KULLANICI_ADI 
+ public string SIFRE 
+ }
+
+ILCE_LIST_RESPONSE:KAYIT_RESPONSE
+ {
+ public List<ILCE> ILCEListe 
+ }
+12
+KAYIT_RESPONSE
+ {
+ public long SONUC_KOD 
+ public string SONUC_ACIKLAMA 
+ public string KAYIT_ID 
+ }
+ILCE
+ {
+ public long ILCENO 
+ public string ADI 
+ public long ILNO 
+ }
